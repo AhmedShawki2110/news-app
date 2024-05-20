@@ -30,8 +30,11 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
     _controller.forward();
 
     Future.delayed(Duration(seconds: 3), () {
-      Navigator.of(context)
-          .pushReplacement(MaterialPageRoute(builder: (_) => HomeView()));
+      if(mounted){
+        Navigator.of(context)
+            .pushReplacement(MaterialPageRoute(builder: (_) => HomeView(),
+        ),);
+      }
     });
   }
 

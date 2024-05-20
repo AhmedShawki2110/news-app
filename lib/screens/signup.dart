@@ -48,7 +48,7 @@ class _SignupState extends State<Signup> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.asset(
-                    'images/1.jpg',
+                    'images/logo.png',
                     height: 150,
                   ),
                   SizedBox(height: 20),
