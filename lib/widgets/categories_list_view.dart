@@ -92,13 +92,3 @@ class _CategoriesListViewState extends State<CategoriesListView> {
     );
   }
 }
-
-/*
-ListView.builder(
-        scrollDirection: Axis.horizontal,
-        itemCount: categories.length,
-        itemBuilder: (context,index) => CategoryCard(
-          category: categories[index],
-        ),
-      )
-*/
